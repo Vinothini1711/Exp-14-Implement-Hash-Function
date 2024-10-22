@@ -1,8 +1,8 @@
-# Exp-14-Implement-Hash-Function
-# AIM:
+# Implement-Hash-Function
+## AIM:
 To generate a simple hash of a given message using a custom hash function.
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 Step 1:
 Input a message from the user.
 
@@ -18,7 +18,7 @@ Display the computed hash to the user.
 Step 5:
 Optionally verify the hash by recomputing it and comparing it with a received hash.
 
-# PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 #include <string.h>
@@ -70,9 +70,9 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![Screenshot 2024-10-17 082502](https://github.com/user-attachments/assets/7a0382a1-77c4-4fd1-8ea6-f50c7f0c9463)
 
-# RESULT:
+## RESULT:
 The program for generating and verifying a simple hash of a given message using a custom hash function was executed successfully. The computed hash ensures basic integrity of the message.
